@@ -14,11 +14,12 @@
 		95498EDA235FCC410055E0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95498ED9235FCC410055E0A6 /* Assets.xcassets */; };
 		95498EDD235FCC410055E0A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95498EDC235FCC410055E0A6 /* Preview Assets.xcassets */; };
 		95498EE0235FCC410055E0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95498EDE235FCC410055E0A6 /* LaunchScreen.storyboard */; };
+		A7F5617E2448367700FFAC4B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5617D2448367700FFAC4B /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		954030C32361295A00034EE0 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
-		95498ED0235FCC3F0055E0A6 /* Project18-Challenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project18-Challenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95498ED0235FCC3F0055E0A6 /* Project18-Challenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project18-Challenge3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95498ED3235FCC3F0055E0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95498ED5235FCC3F0055E0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95498ED7235FCC3F0055E0A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		95498EDC235FCC410055E0A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95498EDF235FCC410055E0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95498EE1235FCC410055E0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F5617D2448367700FFAC4B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,14 @@
 				95498ED3235FCC3F0055E0A6 /* AppDelegate.swift */,
 				95498ED5235FCC3F0055E0A6 /* SceneDelegate.swift */,
 				95498ED7235FCC3F0055E0A6 /* ContentView.swift */,
+				A7F5617D2448367700FFAC4B /* CustomTextField.swift */,
 				95498ED9235FCC410055E0A6 /* Assets.xcassets */,
 				95498EDE235FCC410055E0A6 /* LaunchScreen.storyboard */,
 				95498EE1235FCC410055E0A6 /* Info.plist */,
 				954030C32361295A00034EE0 /* start.txt */,
 				95498EDB235FCC410055E0A6 /* Preview Content */,
 			);
-			path = Project18-Challenge3;
+			path = "Project18-Challenge3";
 			sourceTree = "<group>";
 		};
 		95498EDB235FCC410055E0A6 /* Preview Content */ = {
@@ -93,8 +96,8 @@
 			);
 			dependencies = (
 			);
-			name = Project18-Challenge3;
-			productName = Project18-Challenge3;
+			name = "Project18-Challenge3";
+			productName = "Project18-Challenge3";
 			productReference = 95498ED0235FCC3F0055E0A6 /* Project18-Challenge3.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F5617E2448367700FFAC4B /* CustomTextField.swift in Sources */,
 				95498ED4235FCC3F0055E0A6 /* AppDelegate.swift in Sources */,
 				95498ED6235FCC3F0055E0A6 /* SceneDelegate.swift in Sources */,
 				95498ED8235FCC3F0055E0A6 /* ContentView.swift in Sources */,
@@ -290,8 +294,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Project18-Challenge3/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Project18-Challenge3/Info.plist;
+				INFOPLIST_FILE = "Project18-Challenge3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,8 +314,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Project18-Challenge3/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Project18-Challenge3/Info.plist;
+				INFOPLIST_FILE = "Project18-Challenge3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -90,3 +90,4 @@ class Prospects: ObservableObject {
         return paths[0]
     }
 }
+
